@@ -605,3 +605,16 @@ hr.my-4 {
   border-width: 3px;
   max-width: 50px;
 }
+
+/**********
+  Footer
+**********/
+footer {
+  padding: 25px 0;
+}
+
+footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+}
