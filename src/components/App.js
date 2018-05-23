@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import jQuery from 'jquery';
 import ScrollReveal from 'scrollreveal';
+import Events from './Events';
 
 (function($) {
   // Smooth scrolling with jQuery easing
@@ -93,6 +94,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Header />
+        <Events />
       </div>
     );
   }

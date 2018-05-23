@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Nav () {
+const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
@@ -28,3 +28,5 @@ export default function Nav () {
     </nav>
   )
 }
+
+export default Nav;
