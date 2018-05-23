@@ -1,5 +1,4 @@
 import jQuery from 'jquery';
-// import ScrollReveal from 'scrollreveal';
 
 (function($) {
   $(document).ready(function () {
@@ -45,31 +44,6 @@ import jQuery from 'jquery';
   navbarCollapse();
   // Collapse navbar when page is scrolled
   $(window).scroll(navbarCollapse);
-
-  // Hide navbar when modals trigger
-  // $('.portfolio-modal').on('show.bs.modal', function(e) {
-  //   $(".navbar").addClass("d-none");
-  // })
-  // $('.portfolio-modal').on('hidden.bs.modal', function(e) {
-  //   $(".navbar").removeClass("d-none");
-  // })
-
-  // Scroll reveal calls
-  // window.sr = ScrollReveal();
-  // window.sr.reveal('.sr-icons', {
-  //   duration: 600,
-  //   scale: 0.3,
-  //   distance: '0px'
-  // }, 200);
-  // window.sr.reveal('.sr-button', {
-  //   duration: 1000,
-  //   delay: 200
-  // });
-  // window.sr.reveal('.sr-contact', {
-  //   duration: 600,
-  //   scale: 0.3,
-  //   distance: '0px'
-  // }, 300);
 
   // Scroll to top
   $(document).scroll(function() {
