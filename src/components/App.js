@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import Nav from './Nav';
-import Header from './Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import jQuery from 'jquery';
 import ScrollReveal from 'scrollreveal';
+import Nav from './Nav';
+import Header from './Header';
+import About from './About';
 import Events from './Events';
 
 (function($) {
@@ -94,6 +95,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Header />
+        <About />
         <Events />
       </div>
     );

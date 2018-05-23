@@ -222,9 +222,41 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-/********
+/*********
+  About
+*********/
+section#about.bg-primary {
+  background-color: #F05F40 !important;
+}
+
+h2.section-heading.text-white {
+  margin-top: 0;
+}
+
+hr.light {
+  border-color: #fff;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+p.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+a.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+a.btn-xl {
+  padding: 1rem 2rem;
+}
+
+/*********
   Events
-********/
+*********/
 #events * { z-index: 2; }
 
 #events .event-item {

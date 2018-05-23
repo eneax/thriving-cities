@@ -11,16 +11,16 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ml-auto">
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">Home</a>
+              <a className="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#events">Events</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">About</a>
+              <a className="nav-link js-scroll-trigger" href="#cities">Cities</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">Contacts</a>
+              <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
