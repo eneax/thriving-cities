@@ -618,3 +618,28 @@ footer span.copyright {
   line-height: 40px;
   text-transform: none;
 }
+
+/****************
+  SCROLL-TO-TOP
+****************/
+.scroll-to-top {
+  background-color: rgba(33, 37, 41, .5);
+  color: #fff;
+  display: none;
+  line-height: 38px;
+  bottom: 15px;
+  right: 15px;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  z-index: 3;
+}
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+  color: #fff;
+}
+.scroll-to-top:hover { background-color: #212529; }
+
+.scroll-to-top i { font-weight: 900; }
+

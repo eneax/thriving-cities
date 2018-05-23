@@ -105,6 +105,11 @@ class App extends Component {
         <NewsLetter />
         <Contact />
         <Footer />
+        {
+          <a className="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+            <i className="fa fa-angle-up" aria-hidden="true"></i>
+          </a>
+        }
       </div>
     );
   }
