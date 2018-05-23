@@ -8,6 +8,7 @@ import Header from './Header';
 import About from './About';
 import Events from './Events';
 import Cities from './Cities';
+import Contact from './Contact';
 
 (function($) {
   // Smooth scrolling with jQuery easing
@@ -99,6 +100,7 @@ class App extends Component {
         <About />
         <Events />
         <Cities />
+        <Contact />
       </div>
     );
   }

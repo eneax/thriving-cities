@@ -596,3 +596,12 @@ section h3.section-subheading {
     padding: 0 100px 20px 20px;
   }
 }
+
+/**********
+  Contact
+**********/
+hr.my-4 {
+  border-color: #e53e2d;
+  border-width: 3px;
+  max-width: 50px;
+}
