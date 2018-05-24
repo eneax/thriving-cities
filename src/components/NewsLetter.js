@@ -2,10 +2,10 @@ import React from 'react';
 
 const NewsLetter = () => {
   return (
-    <section className="bg-dark text-white">
+    <section className="bg-white">
       <div className="container text-center">
-        <h2 className="mb-4">Join Our Newsletter</h2>
-        <a className="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Subscribe</a>
+        <h2 className="section-heading text-uppercase">Join Our Newsletter</h2>
+        <a className="btn btn-yellow btn-xl text-uppercase" href="http://eneaxharja.com">Subscribe</a>
       </div>
     </section>
   )

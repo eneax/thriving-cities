@@ -17,8 +17,8 @@ class App extends Component {
         <About />
         <Events />
         <Cities />
-        <NewsLetter />
         <Contact />
+        <NewsLetter />
         <Footer />
         {
           <a className="js-scroll-trigger scroll-to-top rounded" href="#page-top">
