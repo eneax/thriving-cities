@@ -9,12 +9,12 @@ body {
 p { line-height: 1.75; }
 
 a,
-svg {
+svg.fa-3x {
   color: #e5b136;
   transition: color .5s;
 }
 a:hover,
-svg:hover { 
+svg.fa-3x:hover { 
   color: #ebc363;
 }
 
