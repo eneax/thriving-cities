@@ -2,19 +2,23 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="bg-primary" id="about">
+    <section id="about" className="bg-white">
       <div className="container">
         <div className="row">
+          <div className="col-lg-12 text-center">
+            <h2 className="section-heading text-uppercase">About</h2>
+            <hr className="my-4"/>
+          </div>
           <div className="col-lg-8 mx-auto text-center">
-            <h2 className="section-heading text-white">We've got what you need!</h2>
-            <hr className="light my-4"/>
-            <p className="text-faded mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a className="btn btn-light btn-xl js-scroll-trigger" href="#events">Get Started!</a>
+            <p className="mb-4">Thriving Cities is a group of unconventional urbanists with a unique understanding of, and approach to, cities.
+            We are committed to helping scholars, foundations, city officials, religious leaders, politicians, business people, nonprofits, and residents alike answer the question, what does it mean and take to thrive in my city and how can I contribute?</p>
+            <iframe 
+              className="col-12 my-3"
+              title="Thriving Cities"
+              src="https://player.vimeo.com/video/135908974"
+              width="640" height="360" frameBorder="0" allowFullScreen
+            />       
+            <a className="btn btn-yellow btn-xl text-uppercase js-scroll-trigger" href="#events">Get Started</a>
           </div>
         </div>
       </div>
