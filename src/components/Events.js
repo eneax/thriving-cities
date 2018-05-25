@@ -18,7 +18,7 @@ const Events = () => {
               <a className="event-link" data-toggle="modal" href="#eventModal1">
                 <div className="event-hover">
                   <div className="event-hover-content">
-                    <i className="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                    <i className="fas fa-search-plus fa-3x search-icon" aria-hidden="true"></i>
                   </div>
                 </div>
                 <img className="img-fluid" src={oneT} alt="Antipasto Porsenna" />
@@ -32,7 +32,7 @@ const Events = () => {
               <a className="event-link" data-toggle="modal" href="#eventModal2">
                 <div className="event-hover">
                   <div className="event-hover-content">
-                    <i className="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                    <i className="fas fa-search-plus fa-3x search-icon" aria-hidden="true"></i>
                   </div>
                 </div>
                 <img className="img-fluid" src={twoT} alt="Pizza Porsenna" />
@@ -46,7 +46,7 @@ const Events = () => {
               <a className="event-link" data-toggle="modal" href="#eventModal3">
                 <div className="event-hover">
                   <div className="event-hover-content">
-                    <i className="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                    <i className="fas fa-search-plus fa-3x search-icon" aria-hidden="true"></i>
                   </div>
                 </div>
                 <img className="img-fluid" src={threeT} alt="Zuppa di farro, fagioli e ceci" />

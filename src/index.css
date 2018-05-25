@@ -14,7 +14,7 @@ svg.fa-3x {
   transition: color .5s;
 }
 a:hover,
-svg.fa-3x:hover { 
+svg.contact-icon:hover { 
   color: #ebc363;
 }
 
@@ -234,6 +234,8 @@ p.mb-5 {
 /*********
   Events
 *********/
+svg.search-icon { color: #fff;}
+
 #events .event-item {
   margin: 0 0 15px;
   right: 0; 

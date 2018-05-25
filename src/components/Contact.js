@@ -14,17 +14,17 @@ const Contact = () => {
         <div className="row">
           <div className="col-4 mx-auto text-center">
             <a href="mailto:communications@thrivingcitiesgroup.com" target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-envelope fa-3x mb-3"></i>
+              <i className="fas fa-envelope fa-3x contact-icon mb-3"></i>
             </a>
           </div>
           <div className="col-4 mx-auto text-center">
             <a href="https://www.facebook.com/thrivingcities" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-facebook-f fa-3x mb-3"></i>
+              <i className="fab fa-facebook-f fa-3x contact-icon mb-3"></i>
             </a>
           </div>
           <div className="col-4 mx-auto text-center">
             <a href="https://twitter.com/thriving_cities" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter fa-3x mb-3"></i>
+              <i className="fab fa-twitter fa-3x contact-icon mb-3"></i>
             </a>
           </div>
         </div>
