@@ -158,6 +158,9 @@ hr.mt-4.mb-5 {
   HEADER
 **********/
 header.masthead {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -166,22 +169,21 @@ header.masthead {
           background-size: cover;
 }
 
-video { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translate(-50%, -50%);
-  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
+video {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  position: relative;
+  height: 100%;
+  z-index: 10;
 }
 
 header.masthead .intro-text .intro-lead-in {
