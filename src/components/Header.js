@@ -1,5 +1,4 @@
 import React from 'react';
-
 import city from '../images/city.mp4';
 
 const Header = () => {

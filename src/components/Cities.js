@@ -1,8 +1,5 @@
 import React from 'react';
-
-import orlando from '../images/orlando.jpg';
-import portland from '../images/portland.jpg';
-import richmond from '../images/richmond.jpg';
+import { orlando, portland, richmond } from '../utils/media';
 
 const Cities = () => {
   return (

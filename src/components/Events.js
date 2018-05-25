@@ -1,11 +1,5 @@
 import React from 'react';
-
-import oneT from '../images/events/thumbnail/01-thumbnail.jpg';
-import twoT from '../images/events/thumbnail/02-thumbnail.jpg';
-import threeT from '../images/events/thumbnail/03-thumbnail.jpg';
-import oneF from '../images/events/full/01-full.jpg';
-import twoF from '../images/events/full/02-full.jpg';
-import threeF from '../images/events/full/03-full.jpg';
+import {oneT, twoT, threeT, oneF, twoF, threeF} from '../utils/media';
 
 const Events = () => {
   return (

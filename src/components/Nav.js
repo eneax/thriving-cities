@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo-gold.png';
+import {logo} from '../utils/media';
 
 const Nav = () => {
   return (
