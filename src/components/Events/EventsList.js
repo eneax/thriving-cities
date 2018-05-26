@@ -40,6 +40,9 @@ const EventsList = ({ events }) => {
               id={events[i].id}
               heading={events[i].heading}
               full={events[i].full}
+              date={events[i].date}
+              location={events[i].location}
+              details={events[i].details}
             />
           )
         })

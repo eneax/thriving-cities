@@ -337,6 +337,15 @@ svg.search-icon { color: #fff;}
 
 .event-modal .modal-content button { cursor: pointer; }
 
+.event-modal .modal-content button.btn.btn-signUp {
+  color: #fff;
+  font-weight: bold;
+  background-color: #e5b136;
+  transition: background-color .5s;
+}
+.event-modal .modal-content button.btn.btn-signUp:hover {
+  background-color: #ebc363;
+}
 .event-modal .close-modal {
   background-color: transparent;
   cursor: pointer;
@@ -345,33 +354,34 @@ svg.search-icon { color: #fff;}
   top: 25px;
   width: 75px;
   height: 75px;
+  transition: opacity .5s;
 }
-.event-modal .close-modal:hover { opacity: .3; }
+.event-modal .close-modal:hover { opacity: .5; }
 
-.event-modal .close-modal .lr {
+/* .event-modal .close-modal .lr { */
   /* Safari and Chrome */
-  margin-left: 35px;
+  /* margin-left: 35px;
   z-index: 1051;
   width: 1px;
-  height: 75px;
+  height: 75px; */
   /* IE 9 */
-  background-color: #212529;
+  /* background-color: #212529;
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
+          transform: rotate(45deg); */
+/* } */
 
-.event-modal .close-modal .lr .rl {
+/* .event-modal .close-modal .lr .rl { */
   /* Safari and Chrome */
-  z-index: 1052;
+  /* z-index: 1052;
   width: 1px;
-  height: 75px;
+  height: 75px; */
   /* IE 9 */
-  background-color: #212529;
+  /* background-color: #212529;
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
+          transform: rotate(90deg); */
+/* } */
 
 /*********
   City
