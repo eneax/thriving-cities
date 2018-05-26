@@ -374,10 +374,11 @@ svg.search-icon { color: #fff;}
 }
 
 /*********
-  Cities
+  City
 *********/
 img.rounded-circle.img-fluid.cities {
   height: 100%;
+  width: 100%;
 }
 
 .timeline {

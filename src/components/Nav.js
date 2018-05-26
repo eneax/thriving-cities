@@ -20,7 +20,7 @@ const Nav = () => {
               <a className="nav-link js-scroll-trigger" href="#events">Events</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#cities">Cities</a>
+              <a className="nav-link js-scroll-trigger" href="#city">City</a>
             </li>
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>

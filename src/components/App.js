@@ -4,7 +4,7 @@ import Header from './Header';
 import About from './About';
 import EventsList from './Events/EventsList';
 import { events } from './Events/events';
-import Cities from './Cities';
+import City from './City';
 import NewsLetter from './NewsLetter';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -17,7 +17,7 @@ class App extends Component {
         <Header />
         <About />
         <EventsList events={ events } />
-        <Cities />
+        <City />
         <Contact />
         <NewsLetter />
         <Footer />
