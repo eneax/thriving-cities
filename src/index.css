@@ -335,8 +335,17 @@ svg.search-icon { color: #fff;}
   margin-bottom: 30px;
 }
 
-.event-modal .modal-content button { cursor: pointer; }
+a.event-address {
+  color: #e5b136;
+  font-weight: bold;
+  transition: color .5s;
+}
+a.event-address:hover {
+  color: #ebc363;
+  text-decoration: none;
+}
 
+.event-modal .modal-content button { cursor: pointer; }
 .event-modal .modal-content button.btn.btn-signUp {
   color: #fff;
   font-weight: bold;

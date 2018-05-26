@@ -42,6 +42,7 @@ const EventsList = ({ events }) => {
               full={events[i].full}
               date={events[i].date}
               location={events[i].location}
+              address={events[i].address}
               details={events[i].details}
             />
           )
