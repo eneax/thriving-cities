@@ -4,7 +4,6 @@ import Modals from './Modals';
 
 const EventsList = ({ events }) => {
   return (
-    // Return Event
     <div>
       <section className="bg-light" id="events">
         <div className="container">
@@ -16,6 +15,7 @@ const EventsList = ({ events }) => {
           </div>
           <div className="row">
             {
+              // Events
               events.map((event, i) => {
                 return (
                   <Event
@@ -32,7 +32,7 @@ const EventsList = ({ events }) => {
       </section>
       
       {
-        // Return Modal
+        // Modals
         events.map((event, i) => {
           return (
             <Modals
