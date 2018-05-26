@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import Header from './Header';
 import About from './About';
-import Events from './Events';
+import EventsList from './Events/EventsList';
+import { events } from './Events/events';
 import Cities from './Cities';
 import NewsLetter from './NewsLetter';
 import Contact from './Contact';
@@ -15,7 +16,7 @@ class App extends Component {
         <Nav />
         <Header />
         <About />
-        <Events />
+        <EventsList events={ events } />
         <Cities />
         <Contact />
         <NewsLetter />
