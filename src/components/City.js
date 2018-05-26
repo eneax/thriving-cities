@@ -70,12 +70,14 @@ const City = () => {
                 </div>
               </li>
               <li className="timeline-inverted">
-                <div className="timeline-image">
-                  <h4 className="font-weight-bold">Time
-                    <br/>To
-                    <br/>Thrive!
-                  </h4>
-                </div>
+                <a className="js-scroll-trigger" href="#events">
+                  <div className="timeline-image">
+                    <h4 className="font-weight-bold">Time
+                      <br/>To
+                      <br/>Thrive!
+                    </h4>
+                  </div>
+                </a>
               </li>
             </ul>
           </div>

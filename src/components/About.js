@@ -18,7 +18,7 @@ const About = () => {
               src="https://player.vimeo.com/video/135908974"
               width="640" height="360" frameBorder="0" allowFullScreen
             />       
-            <a className="btn btn-yellow btn-xl text-uppercase js-scroll-trigger" href="#events">Get Started</a>
+            <a className="btn btn-yellow btn-xl text-uppercase js-scroll-trigger" href="#contact">Get Started</a>
           </div>
         </div>
       </div>

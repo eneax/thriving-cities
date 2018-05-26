@@ -447,6 +447,10 @@ img.rounded-circle.img-fluid.cities {
   border: 7px solid #dfe4e8;
   border-radius: 100%;
   background-color: #e5b136;
+  transition: background-color .5s;
+}
+.timeline > li .timeline-image:hover {
+  background-color: #ebc363;
 }
 
 .timeline > li .timeline-image h4 {

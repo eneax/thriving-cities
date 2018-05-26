@@ -9,7 +9,7 @@ const Header = () => {
       <div className="intro-text">
         <div className="intro-lead-in">Memphis, TN</div>
         <div className="intro-heading text-uppercase">It's Time to Thrive!</div>
-        <a className="btn btn-yellow btn-xl text-uppercase js-scroll-trigger" href="#about">Tell Me More</a>
+        <a className="btn btn-yellow btn-xl text-uppercase js-scroll-trigger" href="#city">Tell Me More</a>
       </div>
       </div>
     </header>
