@@ -310,6 +310,7 @@ svg.search-icon { color: #fff;}
 }
 
 .event-modal .modal-content h2 {
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2em;
   margin-bottom: 15px;
 }
@@ -366,31 +367,6 @@ a.event-address:hover {
   transition: opacity .5s;
 }
 .event-modal .close-modal:hover { opacity: .5; }
-
-/* .event-modal .close-modal .lr { */
-  /* Safari and Chrome */
-  /* margin-left: 35px;
-  z-index: 1051;
-  width: 1px;
-  height: 75px; */
-  /* IE 9 */
-  /* background-color: #212529;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg); */
-/* } */
-
-/* .event-modal .close-modal .lr .rl { */
-  /* Safari and Chrome */
-  /* z-index: 1052;
-  width: 1px;
-  height: 75px; */
-  /* IE 9 */
-  /* background-color: #212529;
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg); */
-/* } */
 
 /*********
   City

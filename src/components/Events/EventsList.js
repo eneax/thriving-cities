@@ -15,7 +15,6 @@ const EventsList = ({ events }) => {
           </div>
           <div className="row">
             {
-              // Events
               events.map((event, i) => {
                 return (
                   <Event
@@ -32,7 +31,6 @@ const EventsList = ({ events }) => {
       </section>
       
       {
-        // Modals
         events.map((event, i) => {
           return (
             <Modals

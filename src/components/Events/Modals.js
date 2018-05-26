@@ -13,7 +13,7 @@ const Modals = ({ id, full, heading, date, location, address, details }) => {
               <div className="col-lg-8 mx-auto">
                 <div className="modal-body">
                   <h2 className="text-uppercase">{heading}</h2>
-                  <img className="img-fluid d-block mx-auto" src={full} alt={`${heading}`} />
+                  <img className="img-fluid d-block mx-auto" src={full} alt={`${heading} Pic`} />
                   <ul className="list-inline">
                     <li><span className="font-weight-bold">Date:</span> {date}</li>
                     <li>

@@ -9,7 +9,7 @@ const Event = ({ id, thumbnail, heading }) => {
             <i className="fas fa-search-plus fa-3x search-icon" aria-hidden="true"></i>
           </div>
         </div>
-        <img className="img-fluid" src={thumbnail} alt={`${heading}`} />
+        <img className="img-fluid" src={thumbnail} alt={`${heading} Pic`} />
       </a>
       <div className="event-caption">
         <p className="text-muted">{heading}</p>
