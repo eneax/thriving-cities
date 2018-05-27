@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from './Nav';
+import Nav from './Nav/Nav';
 import Header from './Header';
 import City from './City';
 import { events } from './Events/events';

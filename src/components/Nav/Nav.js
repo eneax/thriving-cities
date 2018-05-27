@@ -1,5 +1,6 @@
 import React from 'react';
-import {logo} from '../utils/media';
+import {logo} from '../../utils/media';
+import './Nav.css';
 
 const Nav = () => {
   return (
