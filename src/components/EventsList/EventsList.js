@@ -1,6 +1,6 @@
 import React from 'react';
 import Event from './Event/Event';
-import Modals from './Modals/Modals';
+import Modal from './Modal/Modal';
 
 const EventsList = ({ events }) => {
   return (
@@ -33,7 +33,7 @@ const EventsList = ({ events }) => {
       {
         events.map((event, i) => {
           return (
-            <Modals
+            <Modal
               key={i}
               id={events[i].id}
               heading={events[i].heading}

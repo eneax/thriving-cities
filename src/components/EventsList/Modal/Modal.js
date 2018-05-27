@@ -1,7 +1,7 @@
 import React from 'react';
-import './Modals.css';
+import './Modal.css';
 
-const Modals = ({ id, full, heading, date, location, address, details }) => {
+const Modal = ({ id, full, heading, date, location, address, details }) => {
   return (
     <div className="event-modal modal fade" id={`eventModal${id}`} tabIndex="-1" role="dialog" aria-hidden="true">
       <div className="modal-dialog">
@@ -48,4 +48,4 @@ const Modals = ({ id, full, heading, date, location, address, details }) => {
   )
 }
 
-export default Modals;
+export default Modal;
