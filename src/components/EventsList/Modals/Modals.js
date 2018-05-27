@@ -1,4 +1,5 @@
 import React from 'react';
+import './Modals.css';
 
 const Modals = ({ id, full, heading, date, location, address, details }) => {
   return (

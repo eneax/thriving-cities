@@ -1,6 +1,6 @@
 import React from 'react';
-import Event from './Event';
-import Modals from './Modals';
+import Event from './Event/Event';
+import Modals from './Modals/Modals';
 
 const EventsList = ({ events }) => {
   return (
