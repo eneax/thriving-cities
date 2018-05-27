@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './Nav/Nav';
 import Header from './Header/Header';
-import City from './City';
+import City from './City/City';
 import { events } from './Events/events';
 import EventsList from './Events/EventsList';
 import About from './About';
