@@ -50,7 +50,8 @@ section h2.section-heading {
   box-shadow: 0 0 0 0.2rem rgba(229, 177, 54, 0.5);
 }
 
-a.btn-yellow {
+a.btn-yellow,
+input.btn-yellow {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -564,6 +565,18 @@ img.rounded-circle.img-fluid.cities {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+/************
+  Newsletter
+************/
+form#mc-embedded-subscribe-form.validate {
+  text-align: center;
+  padding: 10px 0 10px 0%;
+}
+
+input#mc-embedded-subscribe.btn{
+  border: none;
 }
 
 /**********
