@@ -85,18 +85,6 @@ hr.mt-4.mb-5 {
   max-width: 50px;
 }
 
-/************
-  Newsletter
-************/
-form#mc-embedded-subscribe-form.validate {
-  text-align: center;
-  padding: 10px 0 10px 0%;
-}
-
-input#mc-embedded-subscribe.btn{
-  border: none;
-}
-
 /**********
   Footer
 **********/

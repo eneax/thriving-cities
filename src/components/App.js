@@ -6,7 +6,7 @@ import { events } from './EventsList/events';
 import EventsList from './EventsList/EventsList';
 import About from './About/About';
 import Contact from './Contact/Contact';
-import NewsLetter from './NewsLetter';
+import NewsLetter from './NewsLetter/NewsLetter';
 import Footer from './Footer';
 
 class App extends Component {
