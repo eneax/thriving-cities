@@ -1,5 +1,6 @@
 import React from 'react';
-import city from '../images/city.mp4';
+import city from '../../images/city.mp4';
+import './Header.css';
 
 const Header = () => {
   return (
