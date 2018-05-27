@@ -85,20 +85,6 @@ hr.mt-4.mb-5 {
   max-width: 50px;
 }
 
-/**********
-  Footer
-**********/
-footer {
-  padding: 25px 0;
-}
-
-footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
-  text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 /****************
   SCROLL-TO-TOP
 ****************/
