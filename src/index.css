@@ -86,14 +86,6 @@ hr.mt-4.mb-5 {
 }
 
 /*********
-  About
-*********/
-p.mb-4,
-p.mb-5 {
-  font-size: 1.1rem;
-}
-
-/*********
   Events
 *********/
 svg.search-icon { color: #fff;}

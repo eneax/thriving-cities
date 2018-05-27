@@ -4,7 +4,7 @@ import Header from './Header/Header';
 import City from './City/City';
 import { events } from './Events/events';
 import EventsList from './Events/EventsList';
-import About from './About';
+import About from './About/About';
 import Contact from './Contact';
 import NewsLetter from './NewsLetter';
 import Footer from './Footer';
