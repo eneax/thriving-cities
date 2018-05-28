@@ -1,11 +1,9 @@
-/************
-  Newsletter
-************/
+/*************
+  NEWSLETTER
+*************/
 form#mc-embedded-subscribe-form.validate {
   text-align: center;
   padding: 10px 0 10px 0%;
 }
 
-input#mc-embedded-subscribe.btn{
-  border: none;
-}
+input#mc-embedded-subscribe.btn{ border: none; }

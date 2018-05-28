@@ -30,6 +30,9 @@ section h2.section-heading {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+@media (max-width: 425px) {
+  section h2.section-heading { font-size: 35px; }
+}
 
 .btn-yellow {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
