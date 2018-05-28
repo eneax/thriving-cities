@@ -5,6 +5,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="masthead text-center text-white">
+      {/* Background cover video */}
       <video src={city} autoPlay loop playsInline muted></video>
       <div className="container">
       <div className="intro-text">

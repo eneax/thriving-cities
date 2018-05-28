@@ -1,6 +1,6 @@
-/**********
+/*********
   HEADER
-**********/
+*********/
 header.masthead {
   height: 100vh;
   position: relative;
@@ -13,6 +13,7 @@ header.masthead {
           background-size: cover;
 }
 
+/* Background cover video */
 video {
   object-fit: cover;
   position: absolute;
@@ -46,6 +47,7 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Media query for Medium screen (≥768px) */
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
@@ -65,4 +67,9 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+}
+
+/* Media query for Extra Small screen (≥768px) */
+@media (max-width: 320px) {
+  header.masthead .intro-text .intro-heading { font-size: 40px; }
 }
