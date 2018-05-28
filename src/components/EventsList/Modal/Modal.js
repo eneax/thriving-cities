@@ -26,14 +26,14 @@ const Modal = ({ id, full, heading, date, location, address, details }) => {
                   <p>
                     <strong>Details: </strong> {details}
                   </p>
-                  {/* Begin MailChimp Signup Form */}
+                  {/* Begin MailChimp Signup Form for Events */}
                   <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
                   <div id="mc_embed_signup">
-                    <form action="https://coolwebsite.us12.list-manage.com/subscribe/post?u=d85f808a9af64d58bbb1fa212&amp;id=344d2f93f1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" rel="noopener noreferrer" noValidate>
+                    <form action="https://herokuapp.us12.list-manage.com/subscribe/post?u=d85f808a9af64d58bbb1fa212&amp;id=0cd7068beb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" rel="noopener noreferrer" noValidate>
                       <div id="mc_embed_signup_scroll">
-                        {/* Do not remove this or risk form bot signups */}
+                      {/* Do not remove this or risk form bot signups */}
                         <div style={{ position: "absolute", left: "-5000px", ariaHidden: "true" }}>
-                          <input type="text" name="b_d85f808a9af64d58bbb1fa212_344d2f93f1" tabIndex="-1" value="" />
+                          <input type="text" name="b_d85f808a9af64d58bbb1fa212_0cd7068beb" tabIndex="-1" value="" />
                         </div>
                         <div className="clear">
                           <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" className="btn btn-signUp" />
@@ -41,7 +41,7 @@ const Modal = ({ id, full, heading, date, location, address, details }) => {
                       </div>
                     </form>
                   </div>
-                  {/* End MailChimp Signup Form */}
+                  {/* End MailChimp Signup Form for Events */}
                 </div>
               </div>
             </div>
