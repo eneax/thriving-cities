@@ -22,6 +22,7 @@ class App extends Component {
         <NewsLetter />
         <Footer />
         {
+          // scroll-to-top
           <a className="js-scroll-trigger scroll-to-top rounded" href="#page-top">
             <i className="fa fa-angle-up" aria-hidden="true"></i>
           </a>
