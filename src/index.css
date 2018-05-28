@@ -8,6 +8,17 @@ body {
 
 p { line-height: 1.75; }
 
+p.mb-4,
+p.mb-5 {
+  font-size: 1.1rem;
+}
+@media (max-width: 425px) {
+  p.mb-4,
+  p.mb-5 {
+    font-size: 1rem;
+  }
+}
+
 a,
 svg.fa-3x {
   color: #e5b136;

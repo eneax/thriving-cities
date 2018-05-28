@@ -12,6 +12,7 @@ const About = () => {
           <div className="col-lg-8 mx-auto text-center">
             <p className="mb-4">Thriving Cities is a group of unconventional urbanists with a unique understanding of, and approach to, cities.
             The group is committed to helping scholars, foundations, city officials, religious leaders, politicians, business people, nonprofits, and residents alike answer the question, what does it mean and take to thrive in my city and how can I contribute?</p>
+            {/* Vimeo Video */}
             <iframe 
               className="col-12 my-3"
               title="Thriving Cities"
