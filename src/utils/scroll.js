@@ -40,7 +40,7 @@ import jQuery from 'jquery';
       }
     }
   };
-  // Collapse if page is not at top
+  // Collapse navbar if page is not at top
   navbarCollapse();
   // Collapse navbar when page is scrolled
   $(window).scroll(navbarCollapse);
