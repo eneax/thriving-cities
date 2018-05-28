@@ -1,8 +1,6 @@
 /*********
-  Events
+  EVENTS
 *********/
-svg.search-icon { color: #fff;}
-
 #events .event-item {
   margin: 0 0 15px;
   right: 0; 
@@ -11,6 +9,7 @@ svg.search-icon { color: #fff;}
   #events .event-item { margin: 0 0 30px; }
 }
 
+/* Position overlay on top of event and display it on hover */
 #events .event-item .event-link {
   cursor: pointer;
   display: block;
@@ -18,7 +17,6 @@ svg.search-icon { color: #fff;}
   max-width: 400px;
   position: relative;
 }
-
 #events .event-item .event-link .event-hover {
   background: rgba(254, 209, 54, 0.9);
   opacity: 0;
@@ -31,6 +29,7 @@ svg.search-icon { color: #fff;}
 }
 #events .event-item .event-link .event-hover:hover { opacity: 1; }
 
+/* Position search icon at the center of overlay */
 #events .event-item .event-link .event-hover .event-hover-content {
   color: #fff;
   font-size: 20px;
@@ -41,8 +40,10 @@ svg.search-icon { color: #fff;}
   height: 20px;
   width: 100%;
 }
-
-#events .event-item .event-link .event-hover .event-hover-content i { margin-top: -12px; }
+#events .event-item .event-link .event-hover .event-hover-content svg { 
+  margin-top: -12px;
+  color: #fff;
+}
 
 #events .event-item .event-caption {
   background-color: #fff;

@@ -15,6 +15,10 @@ const EventsList = ({ events }) => {
           </div>
           <div className="row">
             {
+              /*
+                Loop through events.js and return Event with id (same as Modal), 
+                thumbnail image and heading
+              */
               events.map((event, i) => {
                 return (
                   <Event
@@ -31,6 +35,11 @@ const EventsList = ({ events }) => {
       </section>
       
       {
+        /*
+          Loop through events.js and return Modal with id (same as Event),
+          heading, full image, date of event, location of event,
+          address (Google Maps link) and details (event description)
+        */
         events.map((event, i) => {
           return (
             <Modal

@@ -4,6 +4,7 @@ import {
 } from '../../utils/media';
 
 export const events = [
+  // Contains all necessary data to display EventsList.js (a list of events and modals)
   {
     id: 1,
     thumbnail: oneT,

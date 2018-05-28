@@ -1,6 +1,6 @@
-/*********
+/********
   MODAL
-*********/
+********/
 .event-modal { padding-right: 0px !important; }
 
 .event-modal .modal-dialog {
@@ -40,6 +40,7 @@
   margin-bottom: 30px;
 }
 
+/* Style Google Maps link */
 a.event-address {
   color: #e5b136;
   font-weight: bold;
@@ -50,8 +51,7 @@ a.event-address:hover {
   text-decoration: none;
 }
 
-.event-modal .modal-content button { cursor: pointer; }
-
+/* Style Sign Up button */
 .event-modal .modal-content input#mc-embedded-subscribe.btn.btn-signUp {
   color: #fff;
   font-weight: bold;
@@ -61,6 +61,8 @@ a.event-address:hover {
 .event-modal .modal-content input#mc-embedded-subscribe.btn.btn-signUp:hover {
   background-color: #ebc363;
 }
+
+/* Style icon that dismisses modal */
 .event-modal .close-modal {
   background-color: transparent;
   cursor: pointer;
