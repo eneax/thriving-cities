@@ -4,6 +4,7 @@ import './Nav.css';
 
 const Nav = () => {
   return (
+    // Responsive and fixed to top navbar
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">

@@ -1,16 +1,9 @@
-/**********
-    NAV
-**********/
+/******
+  NAV
+******/
 #mainNav { background-color: #212529; }
 
-#mainNav .navbar-brand { color: #e5b136; }
-#mainNav .navbar-brand.active, 
-#mainNav .navbar-brand:active, 
-#mainNav .navbar-brand:focus, 
-#mainNav .navbar-brand:hover { 
-  color: #ebc363;
-}
-
+/* Style hamburger menu button */
 #mainNav .navbar-toggler {
   background-color: #e5b136;
   border: 0;
@@ -35,6 +28,7 @@
   color: #e5b136;
 }
 
+/* Media query for Large screen (≥992px) */
 @media (min-width: 992px) {
   #mainNav {
     background-color: transparent;
@@ -48,22 +42,16 @@
             transition: padding-top .3s, 
                         padding-bottom .3s;
   }
-  #mainNav .navbar-brand {
-    font-size: 1.75em;
-    -webkit-transition: all .3s;
-       -moz-transition: all .3s;
-            transition: all .3s;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
-  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link { padding: 1.1em 1em !important; }
+
+  /* Change padding and background-color when scrolling past header */
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
     padding: 12px 0;
   }
 }
