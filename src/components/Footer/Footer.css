@@ -1,9 +1,7 @@
-/**********
-  Footer
-**********/
-footer {
-  padding: 25px 0;
-}
+/*********
+  FOOTER
+*********/
+footer { padding: 25px 0; }
 
 footer span.copyright {
   font-size: 90%;
