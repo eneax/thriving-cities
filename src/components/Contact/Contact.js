@@ -1,5 +1,4 @@
 import React from 'react';
-import './Contact.css';
 
 const Contact = () => {
   return (
@@ -14,7 +13,7 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col-4 mx-auto text-center">
-            <a href="mailto:communications@thrivingcitiesgroup.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:thrivingcities@icloud.com" target="_blank" rel="noopener noreferrer">
               <i className="fas fa-envelope fa-3x contact-icon mb-3"></i>
             </a>
           </div>
