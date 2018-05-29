@@ -17,7 +17,10 @@ const About = () => {
               className="col-12 my-3"
               title="Thriving Cities"
               src="https://player.vimeo.com/video/135908974"
-              width="640" height="360" frameBorder="0" allowFullScreen
+              width="640" height="360" frameBorder="0"
+              allowFullScreen="true"
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
             />       
             <a className="btn btn-yellow btn-xl text-uppercase js-scroll-trigger" href="#contact">Get Started</a>
           </div>
