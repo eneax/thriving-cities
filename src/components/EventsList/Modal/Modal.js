@@ -33,7 +33,7 @@ const Modal = ({ id, full, heading, date, location, address, details }) => {
                       <div id="mc_embed_signup_scroll">
                       {/* Do not remove this or risk form bot signups */}
                         <div style={{ position: "absolute", left: "-5000px", ariaHidden: "true" }}>
-                          <input type="text" name="b_d85f808a9af64d58bbb1fa212_0cd7068beb" tabIndex="-1" value="" />
+                          <input type="text" name="b_d85f808a9af64d58bbb1fa212_0cd7068beb" tabIndex="-1" value="" />  
                         </div>
                         <div className="clear">
                           <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" className="btn btn-signUp" />
