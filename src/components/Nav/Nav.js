@@ -10,6 +10,7 @@ const Nav = () => {
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
           <img className="rounded img-fluid" src={logo} width="40" height="40" alt="Thriving Cities Logo" />
         </a>
+        {/* Hamburger menu button */}
         <button className="navbar-toggler navbar-toggler-right font-weight-bold" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu <i className="fas fa-bars"></i>
         </button>

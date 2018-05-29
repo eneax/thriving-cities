@@ -1,3 +1,4 @@
+// Import thumbnail images for events and full images for modals
 import {
   oneT, twoT, threeT, fourT, fiveT, sixT, 
   oneF, twoF, threeF, fourF, fiveF, sixF

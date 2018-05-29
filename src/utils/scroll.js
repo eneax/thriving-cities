@@ -2,7 +2,7 @@ import jQuery from "jquery";
 
 (function($) {
   $(document).ready(function () {
-    // Add smooth scrolling to all links
+    // Add smooth scrolling to all links with class "js-scroll-trigger"
     $("a.js-scroll-trigger").on("click", function (e) {
       if (this.hash !== "") {
         e.preventDefault();
@@ -17,7 +17,7 @@ import jQuery from "jquery";
     });
   });  
 
-  // Closes responsive menu after click
+  // Close responsive navbar after click
   $(document).on("click", ".js-scroll-trigger", function() {
     $(".navbar-collapse").collapse("hide");
   });

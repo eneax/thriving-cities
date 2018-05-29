@@ -32,7 +32,7 @@
 
 .event-modal .modal-content img {
   border-radius: 1em;
-  box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px #000;
 }
 
 .event-modal .modal-content ul.list-inline {

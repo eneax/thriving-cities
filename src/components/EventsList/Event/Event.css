@@ -19,7 +19,7 @@
   outline-color: #e5b136;
 }
 #events .event-item .event-link .event-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(254, 209, 54, .9);
   opacity: 0;
   position: absolute;
   width: 100%;

@@ -19,7 +19,10 @@
   background-color: #dfe4e8;
 }
 
-/* Create rectangular panel for timeline description (left side on Medium screen) */
+/* 
+  Create rectangular panel for timeline description 
+  (left side on Medium and Large screen) 
+*/
 .timeline > li {
   position: relative;
   min-height: 50px;
@@ -65,7 +68,7 @@ img.rounded-circle.img-fluid.cities {
   height: 80px;
   margin-left: 0;
   text-align: center;
-  color: white;
+  color: #fff;
   border: 7px solid #dfe4e8;
   border-radius: 100%;
   background-color: #e5b136;
@@ -79,7 +82,10 @@ img.rounded-circle.img-fluid.cities {
   margin-top: 12px;
 }
 
-/* Create rectangular panel for timeline description (right side on Medium screen) */
+/* 
+  Create rectangular panel for timeline description 
+  (right side on Medium and Large screen)
+*/
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
@@ -160,7 +166,7 @@ img.rounded-circle.img-fluid.cities {
   .timeline > li.timeline-inverted > .timeline-panel { padding: 0 20px 20px; }
 }
 
-/* Media query for Extra large screen (≥1200px) */
+/* Media query for Extra Large screen (≥1200px) */
 @media (min-width: 1200px) {
   .timeline > li { min-height: 170px; }
   .timeline > li .timeline-panel { padding: 0 20px 20px 100px; }

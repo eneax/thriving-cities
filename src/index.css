@@ -48,7 +48,7 @@ section h2.section-heading {
 .btn-yellow {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: white;
+  color: #fff;
   background-color: #e5b136;
   border-color: #e5b136;
 }
@@ -57,11 +57,11 @@ section h2.section-heading {
 .btn-yellow:hover {
   background-color: #fec810;
   border-color: #fec810;
-  color: white;
+  color: #fff;
 }
 .btn-yellow:active, 
 .btn-yellow:focus { 
-  box-shadow: 0 0 0 0.2rem rgba(229, 177, 54, 0.5);
+  box-shadow: 0 0 0 .2rem rgba(229, 177, 54, .5);
 }
 
 a.btn-yellow,
@@ -78,19 +78,13 @@ input.btn-yellow {
   background: #e5b136;
   text-shadow: none;
 }
-
 ::selection {
   background: #e5b136;
   text-shadow: none;
 }
 
-img::selection {
-  background: transparent;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
+img::selection { background: transparent; }
+img::-moz-selection { background: transparent; }
 
 hr.my-4,
 hr.mt-4.mb-5 {

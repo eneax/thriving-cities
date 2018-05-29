@@ -7,7 +7,7 @@
 #mainNav .navbar-toggler {
   background-color: #e5b136;
   border: 0;
-  color: white;
+  color: #fff;
   font-size: 12px;
   padding: 13px;
   right: 0;
@@ -16,11 +16,11 @@
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: white;
+  color: #fff;
   font-size: 90%;
   font-weight: 400;
   letter-spacing: 1px;
-  padding: 0.75em 0;
+  padding: .75em 0;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, 
