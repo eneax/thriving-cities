@@ -16,6 +16,7 @@
   margin: 0 auto;
   max-width: 400px;
   position: relative;
+  outline-color: #e5b136;
 }
 #events .event-item .event-link .event-hover {
   background: rgba(254, 209, 54, 0.9);
