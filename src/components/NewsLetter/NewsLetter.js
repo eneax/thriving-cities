@@ -1,5 +1,5 @@
-import React from 'react';
-import './NewsLetter.css';
+import React from "react";
+import "./NewsLetter.css";
 
 const NewsLetter = () => {
   return (
@@ -27,4 +27,4 @@ const NewsLetter = () => {
   )
 }
 
-export default NewsLetter;
+export default NewsLetter; 

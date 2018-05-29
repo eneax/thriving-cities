@@ -1,5 +1,5 @@
-import React from 'react';
-import './Event.css';
+import React from "react";
+import "./Event.css";
 
 const Event = ({ id, thumbnail, heading }) => {
   return (

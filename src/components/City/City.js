@@ -1,6 +1,6 @@
-import React from 'react';
-import { culture, gov, history, future } from '../../utils/media';
-import './City.css';
+import React from "react";
+import { culture, gov, history, future } from "../../utils/media";
+import "./City.css";
 
 const City = () => {
   return (

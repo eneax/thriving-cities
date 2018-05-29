@@ -1,5 +1,5 @@
-import React from 'react';
-import './Modal.css';
+import React from "react";
+import "./Modal.css";
 
 const Modal = ({ id, full, heading, date, location, address, details }) => {
   return (

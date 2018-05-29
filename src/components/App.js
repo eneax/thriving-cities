@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Nav from './Nav/Nav';
-import Header from './Header/Header';
-import City from './City/City';
-import { events } from './EventsList/events';
-import EventsList from './EventsList/EventsList';
-import About from './About/About';
-import Contact from './Contact/Contact';
-import NewsLetter from './NewsLetter/NewsLetter';
-import Footer from './Footer/Footer';
+import React, { Component } from "react";
+import Nav from "./Nav/Nav";
+import Header from "./Header/Header";
+import City from "./City/City";
+import { events } from "./EventsList/events";
+import EventsList from "./EventsList/EventsList";
+import About from "./About/About";
+import Contact from "./Contact/Contact";
+import NewsLetter from "./NewsLetter/NewsLetter";
+import Footer from "./Footer/Footer";
 
 class App extends Component {
   render() {

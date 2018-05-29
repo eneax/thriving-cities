@@ -15,7 +15,7 @@
   left: 40px;
   width: 2px;
   margin-left: -1.5px;
-  content: '';
+  content: "";
   background-color: #dfe4e8;
 }
 
@@ -28,7 +28,7 @@
 .timeline > li:after, 
 .timeline > li:before {
   display: table;
-  content: ' ';
+  content: " ";
 }
 .timeline > li:after { clear: both; }
 .timeline > li .timeline-panel {

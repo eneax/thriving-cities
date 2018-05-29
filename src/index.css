@@ -1,9 +1,9 @@
-/**************
-    GENERAL
-**************/
+/**********
+  GENERAL
+**********/
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p { line-height: 1.75; }
@@ -39,14 +39,14 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media (max-width: 425px) {
   section h2.section-heading { font-size: 35px; }
 }
 
 .btn-yellow {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: white;
   background-color: #e5b136;
@@ -71,7 +71,7 @@ input.btn-yellow {
   border: none;
   border-radius: 300px;
   padding: 1rem 2rem;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 ::-moz-selection {
@@ -120,4 +120,3 @@ hr.mt-4.mb-5 {
   color: #fff;
 }
 .scroll-to-top:hover { background-color: #212529; }
-
