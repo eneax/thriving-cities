@@ -72,7 +72,7 @@ const City = () => {
               </li>
               <li className="timeline-inverted">
                 <a className="js-scroll-trigger" href="#events">
-                  <div className="timeline-image">
+                  <div className="timeline-image material">
                     <h4 className="font-weight-bold">Time
                       <br/>To
                       <br/>Thrive!

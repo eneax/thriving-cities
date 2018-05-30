@@ -8,7 +8,7 @@ const Modal = ({ id, full, heading, date, location, address, details }) => {
         <div className="modal-content">
           {/* Click icon and dismiss modal */}
           <div className="close-modal" data-dismiss="modal">
-            <i className="fas fa-times-circle fa-3x"></i>
+            <i className="fas fa-times-circle rounded-circle material fa-3x"></i>
           </div>
           <div className="container">
             <div className="row">
@@ -36,7 +36,7 @@ const Modal = ({ id, full, heading, date, location, address, details }) => {
                           <input type="text" name="b_d85f808a9af64d58bbb1fa212_0cd7068beb" tabIndex="-1" value="" />  
                         </div>
                         <div className="clear">
-                          <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" className="btn btn-signUp" />
+                          <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" className="btn btn-signUp material" />
                         </div>
                       </div>
                     </form>

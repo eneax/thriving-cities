@@ -22,7 +22,7 @@ const About = () => {
               webkitallowfullscreen="true"
               mozallowfullscreen="true"
             />       
-            <a className="btn btn-yellow btn-xl text-uppercase js-scroll-trigger" href="#contact">Get Started</a>
+            <a className="btn btn-yellow btn-xl text-uppercase js-scroll-trigger material" href="#contact">Get Started</a>
           </div>
         </div>
       </div>

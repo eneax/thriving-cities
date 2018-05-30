@@ -16,7 +16,7 @@ const NewsLetter = () => {
                 <input type="text" name="b_d85f808a9af64d58bbb1fa212_344d2f93f1" tabIndex="-1" value="" />
               </div>
               <div className="clear">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-yellow btn-xl text-uppercase" />
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-yellow btn-xl text-uppercase material" />
               </div>
             </div>
           </form>
