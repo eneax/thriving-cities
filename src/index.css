@@ -127,6 +127,7 @@ hr.mt-4.mb-5 {
   height: 40px;
   text-align: center;
   z-index: 3;
+  transition: all .5s;
 }
 .scroll-to-top:focus,
 .scroll-to-top:hover {
